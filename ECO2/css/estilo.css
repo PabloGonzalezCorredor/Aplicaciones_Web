@@ -1,0 +1,182 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+h1{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 45px;
+	color: white;
+}
+h2{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	color: white;
+}
+h3, label{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+	color: white;
+}
+h4{
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 17px;
+	color: white;
+}
+h5{
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	color: white;
+}
+p{
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15px;
+	color: #979ca4;	
+}
+fieldset {
+	border: 0px;
+}
+
+.error {
+	display: block;
+	color: red;
+}
+
+body {
+	background-color: #CDCDCD;
+	display: flex;
+}
+div#contenedor {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	background-color: #30394a;
+	margin-top: 30px;
+}
+div#contenedor2 {
+	display: flex;
+	width: 850px;
+	flex-direction: column;
+	background-color: #aaaaaa;
+}
+nav {
+	display: flex;
+	width: 150px;
+	justify-content: center;
+	align-items: center;
+}
+button {
+	background-color: #1a1f26;
+	border: none;
+	color: white;
+}
+main {
+	background-color: #1e2630;
+	padding: 20px;
+}
+.header {
+	height: 130px;
+	background-color: #30394a;
+	color: white;
+	padding-left: 20px;
+}
+.events {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	overflow: scroll;
+}
+.selector {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+}
+.selector li {
+	background-color: #30394a;
+	border-radius: 2em;
+	width: 5em;
+	text-align: center;
+}
+.events-by-day {
+	display: flex;
+	gap: 10px;
+	list-style: none;
+	overflow: scroll;
+}
+.add-event-button{
+	position: fixed;
+    bottom: 10px;
+    right: calc(50% - 50px); /* Alinea el botón en el centro horizontal */
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+	width: 100%;
+}
+label {
+	width: 70px;
+}
+.create-event-form {
+	gap: 10px;
+}
+.tarifas {
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.bottom-bar {
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tarifas li{
+	padding-bottom: 10px;
+}
+.tarifa {
+	flex-direction: column;
+	width: 100%;
+	background-color:#1a1f26;
+	border-radius: 15px;
+}
+.comprar-button {
+	background-color: #8250CA;
+	border-radius: 10em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.delete-event-button {
+	background-color: #CA5050;
+	border-radius: 10em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.modify-event-button {
+	background-color: #a1ca50;
+	border-radius: 10em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+  
+  
+
+  
+
